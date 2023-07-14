@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  display: grid;
+  height: 500px;
+  width: 960px;
+  
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+  border: 5px solid darkred;
+}
+.btn{
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  gap: 20px;
+}
+.btn button{
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  color: whitesmoke;
+}
+.map{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.start{
+  background-color: rgb(35, 15, 198);
+  margin-top: 5px;
+}
+
+h1{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
